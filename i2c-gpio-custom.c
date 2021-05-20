@@ -58,9 +58,9 @@
 #include <linux/platform_data/i2c-gpio.h>
 #endif
 
-#define DRV_NAME	"i2c-gpio-custom"
-#define DRV_DESC	"Custom GPIO-based I2C driver"
-#define DRV_VERSION	"0.1.1"
+#define DRV_NAME	"i2c-hyperion-custom"
+#define DRV_DESC	"Hyperion I2C driver"
+#define DRV_VERSION	"0.0.1"
 
 #define PFX		DRV_NAME ": "
 
@@ -287,6 +287,6 @@ subsys_initcall(i2c_gpio_custom_probe);
 #endif /* MODULE*/
 
 MODULE_LICENSE("GPL v2");
-MODULE_AUTHOR("Gabor Juhos <juhosg@openwrt.org >");
+MODULE_AUTHOR("DevopsRalf <ralf@dreamitsystems.com>");
 MODULE_DESCRIPTION(DRV_DESC);
 MODULE_VERSION(DRV_VERSION);
